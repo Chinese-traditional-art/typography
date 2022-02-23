@@ -1,0 +1,5 @@
+{
+  "vite": true,
+  "plugins": [],
+  "publicPath": "https://public-bucket-electron.nos-eastchina1.126.net/web_cdn/cta_typography/"
+}

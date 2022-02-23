@@ -1,0 +1,28 @@
+@import "./color.scss";
+
+@font-face {
+  font-family: "kxzd";
+  src: url(https://public-bucket-realign.nos-eastchina1.126.net/fonts/FZXiJinLJW.ttf);
+  // src: url(https://public-bucket-realign.nos-eastchina1.126.net/fonts/kxzd.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: $paper-bgc;
+  overflow: hidden;
+  font-family: "kxzd";
+}
+
+#app-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
